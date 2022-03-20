@@ -9,10 +9,12 @@
     <title>Главная</title>
     <link rel="stylesheet" href="nicepage.css" media="screen">
 <link rel="stylesheet" href="Главная.css" media="screen">
+<link rel = "stylesheet" href="styleScroll.css" media="screen">
     <script class="u-script" type="text/javascript" src="jquery.js" defer=""></script>
     <script class="u-script" type="text/javascript" src="nicepage.js" defer=""></script>
     <meta name="generator" content="Nicepage 4.4.3, nicepage.com">
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="js/bgscroll.js"></script> -->
     <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster:400|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i">
     <link id="u-page-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700">
     
@@ -39,20 +41,9 @@
           <img src="images/fox.png" class="u-logo-image u-logo-image-1">
         </a>
         <div class="u-social-icons u-spacing-10 u-social-icons-1" >
-          <a class="u-social-url" title="facebook" target="_blank" href=""><span class="u-icon u-social-facebook u-social-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-846d"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-846d"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M73.5,31.6h-9.1c-1.4,0-3.6,0.8-3.6,3.9v8.5h12.6L72,58.3H60.8v40.8H43.9V58.3h-8V43.9h8v-9.2
-            c0-6.7,3.1-17,17-17h12.5v13.9H73.5z"></path></svg></span>
-          </a>
-          <a class="u-social-url" title="twitter" target="_blank" href=""><span class="u-icon u-social-icon u-social-twitter u-icon-2"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-6178"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-6178"><circle fill="currentColor" class="st0" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M83.8,47.3c0,0.6,0,1.2,0,1.7c0,17.7-13.5,38.2-38.2,38.2C38,87.2,31,85,25,81.2c1,0.1,2.1,0.2,3.2,0.2
-            c6.3,0,12.1-2.1,16.7-5.7c-5.9-0.1-10.8-4-12.5-9.3c0.8,0.2,1.7,0.2,2.5,0.2c1.2,0,2.4-0.2,3.5-0.5c-6.1-1.2-10.8-6.7-10.8-13.1
-            c0-0.1,0-0.1,0-0.2c1.8,1,3.9,1.6,6.1,1.7c-3.6-2.4-6-6.5-6-11.2c0-2.5,0.7-4.8,1.8-6.7c6.6,8.1,16.5,13.5,27.6,14
-            c-0.2-1-0.3-2-0.3-3.1c0-7.4,6-13.4,13.4-13.4c3.9,0,7.3,1.6,9.8,4.2c3.1-0.6,5.9-1.7,8.5-3.3c-1,3.1-3.1,5.8-5.9,7.4
-            c2.7-0.3,5.3-1,7.7-2.1C88.7,43,86.4,45.4,83.8,47.3z"></path></svg></span>
-          </a>
-          <a class="u-social-url" title="instagram" target="_blank" href=""><span class="u-icon u-social-icon u-social-instagram u-icon-3"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-8b60"></use></svg><svg class="u-svg-content" viewBox="0 0 112 112" x="0" y="0" id="svg-8b60"><circle fill="currentColor" cx="56.1" cy="56.1" r="55"></circle><path fill="#FFFFFF" d="M55.9,38.2c-9.9,0-17.9,8-17.9,17.9C38,66,46,74,55.9,74c9.9,0,17.9-8,17.9-17.9C73.8,46.2,65.8,38.2,55.9,38.2
-            z M55.9,66.4c-5.7,0-10.3-4.6-10.3-10.3c-0.1-5.7,4.6-10.3,10.3-10.3c5.7,0,10.3,4.6,10.3,10.3C66.2,61.8,61.6,66.4,55.9,66.4z"></path><path fill="#FFFFFF" d="M74.3,33.5c-2.3,0-4.2,1.9-4.2,4.2s1.9,4.2,4.2,4.2s4.2-1.9,4.2-4.2S76.6,33.5,74.3,33.5z"></path><path fill="#FFFFFF" d="M73.1,21.3H38.6c-9.7,0-17.5,7.9-17.5,17.5v34.5c0,9.7,7.9,17.6,17.5,17.6h34.5c9.7,0,17.5-7.9,17.5-17.5V38.8
-            C90.6,29.1,82.7,21.3,73.1,21.3z M83,73.3c0,5.5-4.5,9.9-9.9,9.9H38.6c-5.5,0-9.9-4.5-9.9-9.9V38.8c0-5.5,4.5-9.9,9.9-9.9h34.5
-            c5.5,0,9.9,4.5,9.9,9.9V73.3z"></path></svg></span>
-          </a>
+          <a href="" class="nav-link"><img src="images/3069758_circle_discord_gaming_messenger_round icon_icon.svg" alt=""/></a>
+          <a href="" class="nav-link"><img src="images/opensea.svg" alt=""/></a>
+          <a href="" class="nav-link"><img src="images/834722_facebook_icon.svg" alt=""/></a>
         </div>
         <nav class="u-align-left u-menu u-menu-dropdown u-offcanvas u-menu-1">
           <div class="menu-collapse" style="font-size: 1rem;">
@@ -66,7 +57,7 @@
             <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-d2dd" style="padding: 10px 20px;">HOME</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-6918" style="padding: 10px 20px;">THE STORY</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#gellary" style="padding: 10px 20px;">GALLERY</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#" style="padding: 10px 20px;">ROADMAP</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#roadmap" style="padding: 10px 20px;">ROADMAP</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-6091" style="padding: 10px 20px;">ARTIST</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-eb03" style="padding: 10px 20px;">TEAM</a>
 </li></ul>
@@ -78,7 +69,7 @@
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-d2dd" style="padding: 10px 20px;">HOME</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-6918" style="padding: 10px 20px;">THE STORY</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#gellary" style="padding: 10px 20px;">GALLERY</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#" style="padding: 10px 20px;">ROADMAP</a>
+</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#roadmap" style="padding: 10px 20px;">ROADMAP</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-6091" style="padding: 10px 20px;">ARTIST</a>
 </li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-eb03" style="padding: 10px 20px;">TEAM</a>
 </li></ul>
@@ -106,6 +97,12 @@ welcome, join our mainland! </span>
         <a href="https://nicepage.com/website-builder" class="u-border-none u-btn u-btn-round u-button-style u-gradient u-none u-radius-4 u-text-body-alt-color u-btn-1" id="animation"> Mint Ethereal Fox </a>
       </div>
     </section>
+    <!-- <div class="anim__photo">
+      <img src="images/KillerGF.png" class="bg">
+     
+      <img src="images/tian.png" class="photo">  
+  
+      </div> -->
     <section class="u-align-center u-clearfix u-section-2" id="sec-6918" >
       <div class="u-clearfix u-sheet u-sheet-1">
         <h2 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-1" id="animation">THE STORY</h2>
@@ -113,66 +110,84 @@ welcome, join our mainland! </span>
           <ol class="u-absolute-hcenter u-carousel-indicators u-carousel-indicators-1">
             <li data-u-target="#carousel-aaef" class="u-active u-active-grey-10 u-grey-30" data-u-slide-to="0"></li>
             <li data-u-target="#carousel-aaef" class="u-active-grey-10 u-grey-30" data-u-slide-to="1"></li>
+            <li data-u-target="#carousel-aaef" class="u-active-grey-10 u-grey-30" data-u-slide-to="2"></li>
+            <li data-u-target="#carousel-aaef" class="u-active-grey-10 u-grey-30" data-u-slide-to="3"></li>
+            <li data-u-target="#carousel-aaef" class="u-active-grey-10 u-grey-30" data-u-slide-to="4"></li>
+            <li data-u-target="#carousel-aaef" class="u-active-grey-10 u-grey-30" data-u-slide-to="5"></li>
+            <li data-u-target="#carousel-aaef" class="u-active-grey-10 u-grey-30" data-u-slide-to="6"></li>
+            <li data-u-target="#carousel-aaef" class="u-active-grey-10 u-grey-30" data-u-slide-to="7"></li>
           </ol>
           <div class="u-carousel-inner" role="listbox" id="animation">
             <div class="u-active u-carousel-item u-container-style u-slide" >
-              <div class="u-container-layout u-container-layout-1"><span class="u-icon u-icon-1"><svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 53 53" style="" ><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-a1d5"></use></svg><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:space="preserve" class="u-svg-content" viewBox="0 0 53 53" x="0px" y="0px" id="svg-a1d5" style="enable-background:new 0 0 53 53;"><path style="fill:#E7ECED;" d="M18.613,41.552l-7.907,4.313c-0.464,0.253-0.881,0.564-1.269,0.903C14.047,50.655,19.998,53,26.5,53
-	c6.454,0,12.367-2.31,16.964-6.144c-0.424-0.358-0.884-0.68-1.394-0.934l-8.467-4.233c-1.094-0.547-1.785-1.665-1.785-2.888v-3.322
-	c0.238-0.271,0.51-0.619,0.801-1.03c1.154-1.63,2.027-3.423,2.632-5.304c1.086-0.335,1.886-1.338,1.886-2.53v-3.546
-	c0-0.78-0.347-1.477-0.886-1.965v-5.126c0,0,1.053-7.977-9.75-7.977s-9.75,7.977-9.75,7.977v5.126
-	c-0.54,0.488-0.886,1.185-0.886,1.965v3.546c0,0.934,0.491,1.756,1.226,2.231c0.886,3.857,3.206,6.633,3.206,6.633v3.24
-	C20.296,39.899,19.65,40.986,18.613,41.552z"></path><g><path style="fill:#556080;" d="M26.953,0.004C12.32-0.246,0.254,11.414,0.004,26.047C-0.138,34.344,3.56,41.801,9.448,46.76
-		c0.385-0.336,0.798-0.644,1.257-0.894l7.907-4.313c1.037-0.566,1.683-1.653,1.683-2.835v-3.24c0,0-2.321-2.776-3.206-6.633
-		c-0.734-0.475-1.226-1.296-1.226-2.231v-3.546c0-0.78,0.347-1.477,0.886-1.965v-5.126c0,0-1.053-7.977,9.75-7.977
-		s9.75,7.977,9.75,7.977v5.126c0.54,0.488,0.886,1.185,0.886,1.965v3.546c0,1.192-0.8,2.195-1.886,2.53
-		c-0.605,1.881-1.478,3.674-2.632,5.304c-0.291,0.411-0.563,0.759-0.801,1.03V38.8c0,1.223,0.691,2.342,1.785,2.888l8.467,4.233
-		c0.508,0.254,0.967,0.575,1.39,0.932c5.71-4.762,9.399-11.882,9.536-19.9C53.246,12.32,41.587,0.254,26.953,0.004z"></path>
-</g></svg></span>
-                <h5 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-2">Storyman</h5>
-                <p class="u-text u-text-default u-text-white u-text-3"> The currency on the continent is so-called «Fame». It is a virtual coin that can someone can be
-awarded with for completing certain tasks. But not everyone can take any of the
-tasks. The harder you want your task to be, the more educated you should be. For
-harder tasks you obviously get more money. These hard tasks are about sales,
-gaming industry, modeling etc. You should have a certain education to solve
-them. 
-The testing was organized every year for every citizen
-of the continent, and the results of this test was defining the Difficulty ant the Area of
-tasks. The test combined all the areas of subjects. It was the most
-important and hard day for everyone.&nbsp;</p>
+              <div class="u-container-layout u-container-layout-1">
+                <p class="u-text u-text-default u-text-white u-text-3 story-text">There is a world of Cryptocurrency. There are many countries, continents, villages and even some uncharted lands in this world. But we are going to talk about one of the most powerful continents in the world. It is the continent of Ethereum.
+                  This continent is inhabited by the Ethereal foxes; they are all of different colours and all of them have different hobbies and different positions in society. What is so special about them? You can see an Ethereum above the head of each of them; everyone has a different one, some have the entirety of it, others miss a part of the thing, a few one miss just a tiny bit of it. 
+                  &nbsp;</p>
               </div>
             </div>
             <div class="u-carousel-item u-container-style u-slide">
               <div class="u-container-layout u-container-layout-2">
-                <p class="u-text u-text-body-alt-color u-text-default u-text-4"> The currency on the continent is so-called «Fame». It is a virtual coin that can someone can be
-awarded with for completing certain tasks. But not everyone can take any of the
-tasks. The harder you want your task to be, the more educated you should be. For
-harder tasks you obviously get more money. These hard tasks are about sales,
-gaming industry, modeling etc. You should have a certain education to solve
-them. 
-The testing was organized every year for every citizen
-of the continent, and the results of this test was defining the Difficulty ant the Area of
-tasks. The test combined all the areas of subjects. It was the most
-important and hard day for everyone.<br>The currency on the continent is so-called «Fame». It is a virtual coin that can someone can be
-awarded with for completing certain tasks. But not everyone can take any of the
-tasks. The harder you want your task to be, the more educated you should be. For
-harder tasks you obviously get more money. These hard tasks are about sales,
-gaming industry, modeling etc. You should have a certain education to solve
-them. 
-The testing was organized every year for every citizen
-of the continent, and the results of this test was defining the Difficulty ant the Area of
-tasks. The test combined all the areas of subjects. It was the most
-important and hard day for everyone.&nbsp;&nbsp;
+                <p class="u-text u-text-body-alt-color u-text-default u-text-4 story-text"> The currency on the continent is so-called «Fame». It is a virtual coin that can someone can be awarded with for completing certain tasks. But not everyone can take any of the tasks. The harder you want your task to be, the more educated you should be. For harder tasks you obviously get more money. These hard tasks are about sales, gaming industry, modeling etc. You should have a certain education to solve them. 
+                  The testing was organized every year for every citizen of the continent, and the results of this test was defining the Difficulty ant the Area of tasks. The test combined all the areas of subjects. It was the most important and hard day for everyone. 
+                  &nbsp;
+                </p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-2">
+                <p class="u-text u-text-body-alt-color u-text-default u-text-4 story-text"> The results were very good in the big cities, there were many foxes, who could take the most difficult tasks, for which they were paid for months in advance. But with the prosperity of big cities, the small towns came to decline. It was so because the tasks were rarely reaching the settlements, since the residents of these villages had a low level of education; payment for tasks was barely enough for a week.
+                  The inequality was the reason why the crime level in the villages has increased. 
+                  &nbsp;
+                </p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-2">
+                <p class="u-text u-text-body-alt-color u-text-default u-text-4 story-text"> In the beginning, the foxes did not pay attention to this, because they did not see a difference between the kinds of ethereum everyone had. But when they saw him, the only one who was so ruthless that he broke his Ether completely, and they saw how disfigured he became, how his fur became almost colorless, how his eyes turned white and how even in his head something has changed. Foxes like him started to be called Hollows. At first, no one could understand why this happened to him. But when there was more news about Hollows, everyone began to realize. &nbsp;
+                </p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-2">
+                <p class="u-text u-text-body-alt-color u-text-default u-text-4 story-text"> Those interested in this topic have found a pattern.
+                  First, each of the Hollows committed some kind of crime (There was information about this in newspapers, when the criminal was caught).
+                  Second, many of them lived below the poverty line, in dangerous areas.
+                  And most importantly, the third. Each of them had very little Ethereum left.
+                  Everything worked out in the heads of the Foxes, they realized that, having completely lost Ethereum, you would lose yourself.
+                  &nbsp;
+                </p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-2">
+                <p class="u-text u-text-body-alt-color u-text-default u-text-4 story-text"> Massive paranoia has begun because of this, many foxes were afraid to do anything, because they knew that after a complete breakdown of Ethereum, they could cease to exist, no one wanted such a fate for themselves. To stop the riots, a special profession, Ethereum Blacksmith, was created. Since the continent was huge, and there were five large cities on the continent (not counting many small villages and camps), it was decided to hire five blacksmiths.
+                  Blacksmith of the Forest City, Blacksmith of the Sea City, Blacksmith of the Desert City, Blacksmith of the Mountain City and Blacksmith of the Central City.
+                  &nbsp;
+                </p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-2">
+                <p class="u-text u-text-body-alt-color u-text-default u-text-4 story-text"> Five foxes were chosen; those whose Ethers were still inviolable.
+                  Blacksmiths were given a certain power and strength. Not only did they see the Ethereums of others; they could also create a jewelry that shows the state of your Ethereum in real time. Also, blacksmiths were endowed with immortality, calmness and prudence, which helped the Blacksmiths not to commit crimes. Also, Ethereun of the Blacksmith looked a little different than the others’, it was painted in the colors of their hometown. But the services of the blacksmiths weren't that cheap. Not everyone could afford a pendant or earring with their Ethereum. And some citizens simply did not want to know what quality their Ethereum was, because they were living an ordinary life.
+                  &nbsp;
+                </p>
+              </div>
+            </div>
+            <div class="u-carousel-item u-container-style u-slide">
+              <div class="u-container-layout u-container-layout-2">
+                <p class="u-text u-text-body-alt-color u-text-default u-text-4 story-text"> But sure their lives weren't all about robberies, no. These were exceptional cases when the crop did not sprout, when there was a drought, when one of his relatives fell seriously ill. These situations were rare, but it does not negate the need for theft.&nbsp;&nbsp;
                 </p>
               </div>
             </div>
           </div>
-          <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-spacing-5 u-text-grey-30 u-carousel-control-1" href="#carousel-aaef" role="button" data-u-slide="prev">
+          <!-- <a class="u-absolute-vcenter u-carousel-control u-carousel-control-prev u-spacing-5 u-text-grey-30 u-carousel-control-1" href="#carousel-aaef" role="button" data-u-slide="prev">
             <span aria-hidden="true">
               <svg viewBox="0 0 477.175 477.175"><path d="M145.188,238.575l215.5-215.5c5.3-5.3,5.3-13.8,0-19.1s-13.8-5.3-19.1,0l-225.1,225.1c-5.3,5.3-5.3,13.8,0,19.1l225.1,225
                     c2.6,2.6,6.1,4,9.5,4s6.9-1.3,9.5-4c5.3-5.3,5.3-13.8,0-19.1L145.188,238.575z"></path></svg>
             </span>
             <span class="sr-only">Previous</span>
-          </a>
+          </a> -->
           <a class="u-absolute-vcenter u-carousel-control u-carousel-control-next u-spacing-5 u-text-grey-30 u-carousel-control-2" href="#carousel-aaef" role="button" data-u-slide="next">
             <span aria-hidden="true">
               <svg viewBox="0 0 477.175 477.175"><path d="M360.731,229.075l-225.1-225.1c-5.3-5.3-13.8-5.3-19.1,0s-5.3,13.8,0,19.1l215.5,215.5l-215.5,215.5
@@ -181,7 +196,7 @@ important and hard day for everyone.&nbsp;&nbsp;
             <span class="sr-only">Next</span>
           </a>
         </div>
-        <h2 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-5" id="animation" style="margin-top: 100px;">GALLARY </h2>
+        <h2 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-5" id="animation" style="margin-top: 250px;">GALLARY </h2>
         <div class="u-expanded-width u-gallery u-layout-grid u-lightbox u-no-transition u-show-text-none u-gallery-1" style="margin-top: 50px;" id="gellary">
           <div class="u-gallery-inner u-gallery-inner-1">
             <div class="u-gallery-item">
@@ -224,13 +239,13 @@ important and hard day for everyone.&nbsp;&nbsp;
         </div>
       </div>
     </section>
-    <section class="roadmap">
+    <section class="roadmap" id="roadmap">
       <h2 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-5" id="animation">ROADMAP</h2>
       <img src="./images/fox.png" alt="" id="animation">
     <div class="roadmap-point"  id="animation">
       <div >
       <h3 >0%</h3>
-      <p>- Mainland Ethereal Foxes smart contract deploy.</p>
+      <p>- <span style="text-decoration: underline; color: #f7c20d;">Mainland Ethereal Foxes</span> smart contract deploy.</p>
       <ul class="popup">
         <li>Pre-sale (00:00:0000) в количестве Xшт.</li>	
         <li>Public-Sale  (00 00 0000) в количестве Xшт.</li>	
@@ -242,7 +257,7 @@ important and hard day for everyone.&nbsp;&nbsp;
     <div class="roadmap-point" id="animation">
       <div >
       <h3 >20%</h3>
-      <p> - This project will be filled with exciting news, events, and releases that will build a strong foundation for this great collection. We don't want to be considered just another NFT collection. We want to create both an amazing community and a project that we can all enjoy. Additional exciting announcements, like partnerships with influencers and companies, will be announced as we confirm them.</p>
+      <p> - <span style="text-decoration: underline; color: #f7c20d;">This project</span> will be filled with exciting news, events, and releases that will build a strong foundation for this great collection. We don't want to be considered just another NFT collection. We want to create both an amazing community and a project that we can all enjoy. Additional exciting announcements, like partnerships with influencers and companies, will be announced as we confirm them.</p>
 
       <ul  class="popup">
         <li>Discord & Twitter Sales bot launch</li>	
@@ -256,7 +271,7 @@ important and hard day for everyone.&nbsp;&nbsp;
     <div class="roadmap-point" id="animation">
       <div >
       <h3 >40%</h3>
-      <p>- This stage will be one of the most important for this collection. We expect to start phase two of major investments, launches, announcements, partnerships, and the continued creation of value for every single NFT in our collection.</p>
+      <p>- <span style="text-decoration: underline; color: #f7c20d;">This stage</span> will be one of the most important for this collection. We expect to start phase two of major investments, launches, announcements, partnerships, and the continued creation of value for every single NFT in our collection.</p>
       
       <ul  class="popup">
         <li>If you save the foxes before this stage, then you are a "Real fan” and the Rewards will be sent to the owners of the NFT.</li>	
@@ -270,7 +285,7 @@ important and hard day for everyone.&nbsp;&nbsp;
     <div class="roadmap-point" id="animation">
       <div >
       <h3 >60%</h3>
-      <p>- At this stage we are preparing a special surprise for you. We’ll try to amaze you. Now we can only say one thing, it will be a theme of luxury and wealth!
+      <p>- <span style="text-decoration: underline; color: #f7c20d;">At this stage</span> we are preparing a special surprise for you. We’ll try to amaze you. Now we can only say one thing, it will be a theme of luxury and wealth!
       </p>
       <ul  class="popup">
         <li>Drawing of Custom-made Pendants for large holders of our Foxes!</li>	
@@ -284,7 +299,7 @@ important and hard day for everyone.&nbsp;&nbsp;
     <div class="roadmap-point" id="animation">
       <div >
       <h3 >80%</h3>
-      <p>- When all these stages are completed, we want to get acquainted with the Metaverse (Decentraland, Blocktopia, The Sandbox). All Mainland Ethereal Foxes owners will have access to all future events that we are developing in these metaverses.
+      <p>- <span style="text-decoration: underline; color: #f7c20d;">When all these stages are completed,</span> we want to get acquainted with the Metaverse (Decentraland, Blocktopia, The Sandbox). All Mainland Ethereal Foxes owners will have access to all future events that we are developing in these metaverses.
       </p>
       <ul  class="popup">
         <li>Play2Earn game development - 3D models and mechanisms to earn crypto by participating. Community will vote on aspects of game</li>	
@@ -298,7 +313,7 @@ important and hard day for everyone.&nbsp;&nbsp;
     <div class="roadmap-point" id="animation">
       <div >
       <h3 >100%</h3>
-      <p> The last planned stage will be all about further cementing this collection into the NFT community and its longer-term success. We will do our best to make Mainland Foxes one of the most popular and well-managed NFT collections in the community. That is our goal and what we'll be working to achieve.      </p>
+      <p> <span style="text-decoration: underline; color: #f7c20d;">The last planned stage</span> will be all about further cementing this collection into the NFT community and its longer-term success. We will do our best to make Mainland Foxes one of the most popular and well-managed NFT collections in the community. That is our goal and what we'll be working to achieve.      </p>
     </p>
       <ul  class="popup">
         <li>Possible Mobile app announcement and beta testing</li>	
@@ -338,7 +353,7 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
     </section>
     <section class="u-align-center u-clearfix u-section-4" id="sec-eb03">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-1" id="animation" style="margin-top: 100px;">TEAM</h2>
+        <h2 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-1" id="animation" style="margin-top: 300px;">TEAM</h2>
         <p class="u-text u-text-body-alt-color u-text-default u-text-2" id="animation" style="margin-top: 50px;"> MEF — это талантливая команда разработчиков. При создании коллекции 
 мы вдохновились лисами, которые отличаются своей красотой и изящностью. 
 Также можно заметить, что лисы одни из тех, кто так и не смог стать 
@@ -352,28 +367,15 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-1">
                 <img alt="" class="u-image u-image-default u-image-1" data-image-width="670" data-image-height="828" src="images/8.png">
                 <h4 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-3">Jeffrey Brown</h4>
-                <p class="u-text u-text-body-alt-color u-text-4">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                <p class="u-text u-text-body-alt-color ">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
                 <div class="u-social-icons u-spacing-10 u-social-icons-1">
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-1">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7a73"></use></svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7a73" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
-                  </span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2">
+                  <a class="u-social-url" target="_blank" href="https://twitter.com/Aidar23157081"><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-2">
                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3fbc"></use></svg>
                     <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3fbc" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
                   </span>
                   </a>
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-3">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4bc0"></use></svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4bc0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
-                  </span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-4">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1cc8"></use></svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-1cc8" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg>
-                  </span>
-                  </a>
+                  
+                  
                 </div>
               </div>
             </div>
@@ -381,28 +383,15 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-2">
                 <img alt="" class="u-image u-image-default u-image-2" data-image-width="670" data-image-height="828" src="images/2.png">
                 <h4 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-5">Ann Richmond</h4>
-                <p class="u-text u-text-body-alt-color u-text-6">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                <p class="u-text u-text-body-alt-color ">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
                 <div class="u-social-icons u-spacing-10 u-social-icons-2">
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-5">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7a73"></use></svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7a73" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
-                  </span>
-                  </a>
+                  
                   <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-6">
                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3fbc"></use></svg>
                     <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3fbc" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
                   </span>
                   </a>
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-7">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4bc0"></use></svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4bc0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
-                  </span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-8">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1cc8"></use></svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-1cc8" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg>
-                  </span>
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -410,28 +399,15 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
               <div class="u-container-layout u-similar-container u-valign-top u-container-layout-3">
                 <img alt="" class="u-image u-image-default u-image-3" data-image-width="670" data-image-height="828" src="images/5.png">
                 <h4 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-7">Alex Greenfield</h4>
-                <p class="u-text u-text-body-alt-color u-text-8">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
+                <p class="u-text u-text-body-alt-color ">Glavi amet ritnisl libero molestie ante ut fringilla purus eros quis glavrid from dolor amet iquam lorem bibendum</p>
                 <div class="u-social-icons u-spacing-10 u-social-icons-3">
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-facebook u-social-icon u-icon-9">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-7a73"></use></svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-7a73" class="u-svg-content"><path d="M75.5,28.8H65.4c-1.5,0-4,0.9-4,4.3v9.4h13.9l-1.5,15.8H61.4v45.1H42.8V58.3h-8.8V42.4h8.8V32.2 c0-7.4,3.4-18.8,18.8-18.8h13.8v15.4H75.5z"></path></svg>
-                  </span>
-                  </a>
                   <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-twitter u-icon-10">
                     <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-3fbc"></use></svg>
                     <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-3fbc" class="u-svg-content"><path d="M92.2,38.2c0,0.8,0,1.6,0,2.3c0,24.3-18.6,52.4-52.6,52.4c-10.6,0.1-20.2-2.9-28.5-8.2 c1.4,0.2,2.9,0.2,4.4,0.2c8.7,0,16.7-2.9,23-7.9c-8.1-0.2-14.9-5.5-17.3-12.8c1.1,0.2,2.4,0.2,3.4,0.2c1.6,0,3.3-0.2,4.8-0.7 c-8.4-1.6-14.9-9.2-14.9-18c0-0.2,0-0.2,0-0.2c2.5,1.4,5.4,2.2,8.4,2.3c-5-3.3-8.3-8.9-8.3-15.4c0-3.4,1-6.5,2.5-9.2 c9.1,11.1,22.7,18.5,38,19.2c-0.2-1.4-0.4-2.8-0.4-4.3c0.1-10,8.3-18.2,18.5-18.2c5.4,0,10.1,2.2,13.5,5.7c4.3-0.8,8.1-2.3,11.7-4.5 c-1.4,4.3-4.3,7.9-8.1,10.1c3.7-0.4,7.3-1.4,10.6-2.9C98.9,32.3,95.7,35.5,92.2,38.2z"></path></svg>
                   </span>
                   </a>
-                  <a class="u-social-url" target="_blank" href=""><span class="u-icon u-icon-circle u-social-icon u-social-instagram u-icon-11">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-4bc0"></use></svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-4bc0" class="u-svg-content"><path d="M55.9,32.9c-12.8,0-23.2,10.4-23.2,23.2s10.4,23.2,23.2,23.2s23.2-10.4,23.2-23.2S68.7,32.9,55.9,32.9z M55.9,69.4c-7.4,0-13.3-6-13.3-13.3c-0.1-7.4,6-13.3,13.3-13.3s13.3,6,13.3,13.3C69.3,63.5,63.3,69.4,55.9,69.4z"></path><path d="M79.7,26.8c-3,0-5.4,2.5-5.4,5.4s2.5,5.4,5.4,5.4c3,0,5.4-2.5,5.4-5.4S82.7,26.8,79.7,26.8z"></path><path d="M78.2,11H33.5C21,11,10.8,21.3,10.8,33.7v44.7c0,12.6,10.2,22.8,22.7,22.8h44.7c12.6,0,22.7-10.2,22.7-22.7 V33.7C100.8,21.1,90.6,11,78.2,11z M91,78.4c0,7.1-5.8,12.8-12.8,12.8H33.5c-7.1,0-12.8-5.8-12.8-12.8V33.7 c0-7.1,5.8-12.8,12.8-12.8h44.7c7.1,0,12.8,5.8,12.8,12.8V78.4z"></path></svg>
-                  </span>
-                  </a>
-                  <a class="u-social-url" target="_blank" href="#"><span class="u-icon u-icon-circle u-social-icon u-social-linkedin u-icon-12">
-                    <svg class="u-svg-link" preserveAspectRatio="xMidYMin slice" viewBox="0 0 112 112" style=""><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#svg-1cc8"></use></svg>
-                    <svg x="0px" y="0px" viewBox="0 0 112 112" id="svg-1cc8" class="u-svg-content"><path d="M33.8,96.8H14.5v-58h19.3V96.8z M24.1,30.9L24.1,30.9c-6.6,0-10.8-4.5-10.8-10.1c0-5.8,4.3-10.1,10.9-10.1 S34.9,15,35.1,20.8C35.1,26.4,30.8,30.9,24.1,30.9z M103.3,96.8H84.1v-31c0-7.8-2.7-13.1-9.8-13.1c-5.3,0-8.5,3.6-9.9,7.1 c-0.6,1.3-0.6,3-0.6,4.8V97H44.5c0,0,0.3-52.6,0-58h19.3v8.2c2.6-3.9,7.2-9.6,17.4-9.6c12.7,0,22.2,8.4,22.2,26.1V96.8z"></path></svg>
-                  </span>
-                  </a>
+                  
+                  
                 </div>
               </div>
             </div>
@@ -441,7 +417,7 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
     </section>
     <section class="u-align-left u-clearfix u-section-5" id="sec-8875">
       <div class="u-clearfix u-sheet u-sheet-1">
-        <h2 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-1" id="animation">MORE INFO</h2>
+        <h2 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-1" id="animation" style="margin-top: 300px;">MORE INFO</h2>
         <ul class="u-custom-list u-indent-0 u-spacing-21 u-text u-text-body-alt-color u-text-2">
           <li id="animation">
             <div class="u-list-icon">
@@ -565,9 +541,9 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
   opacity: 0;
 }
 .float_animation{
-  animation: float 2s cubic-bezier(.5, -0.5, 0.5, 1.5);
+  animation: float 2s   cubic-bezier(1,0,.58,.97);
+};
 
-}
 .b-marquee-line__flow {
   font-size: 0;
   line-height: 0;
@@ -597,7 +573,7 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
 }
 .b-marquee-line__flow-item {
   width: 20vw;
-  height: 20vw;
+  height: 22vw;
   border-radius: 5%;
   box-shadow: 3px 3px 3px #1c1e24 ;
   margin: 2vw;
@@ -621,7 +597,7 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
   margin: 10px;
 }
 .roadmap h2{
-  margin: 30px auto 30px;
+  margin: 200px auto 30px;
 }
 .roadmap-point{
   width: 5px;
@@ -689,10 +665,10 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
           <div class="b-marquee-line__flow" id="animation">
             <div class="b-marquee-line__flow-in">
               <span class="b-marquee-line__flow-block">
-                <img src="images/2.png" class="b-marquee-line__flow-item" alt="" >
-                <img src="images/3.png" class="b-marquee-line__flow-item" alt="" >
-                <img src="images/4.png" class="b-marquee-line__flow-item" alt="" >
-                <img src="images/5.png" class="b-marquee-line__flow-item" alt="" >
+                <img src="images/6.png" class="b-marquee-line__flow-item" alt="" >
+                <img src="images/7.png" class="b-marquee-line__flow-item" alt="" >
+                <img src="images/8.png" class="b-marquee-line__flow-item" alt="" >
+                <img src="images/9.png" class="b-marquee-line__flow-item" alt="" >
               </span>
               <span class="b-marquee-line__flow-block">
                 <img src="images/6.png" class="b-marquee-line__flow-item" alt="" >
@@ -703,7 +679,7 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
             </div>
           </div>
         </section>
-        <section class="b-marquee-line-reverse">
+        <section class="b-marquee-line-reverse" style="margin-top: 25vw;">
           <div class="b-marquee-line__flow" id="animation">
             <div class="b-marquee-line__flow-in reverse">
               <span class="b-marquee-line__flow-block">
@@ -713,10 +689,10 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
                 <img src="images/5.png" class="b-marquee-line__flow-item" alt="" >
               </span>
               <span class="b-marquee-line__flow-block">
-                <img src="images/6.png" class="b-marquee-line__flow-item" alt="" >
-                <img src="images/7.png" class="b-marquee-line__flow-item" alt="" >
-                <img src="images/8.png" class="b-marquee-line__flow-item" alt="" >
-                <img src="images/9.png" class="b-marquee-line__flow-item" alt="" >
+                <img src="images/2.png" class="b-marquee-line__flow-item" alt="" >
+                <img src="images/3.png" class="b-marquee-line__flow-item" alt="" >
+                <img src="images/4.png" class="b-marquee-line__flow-item" alt="" >
+                <img src="images/5.png" class="b-marquee-line__flow-item" alt="" >
               </span>
             </div>
           </div>
@@ -724,21 +700,6 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
       </div>
   </div>
 </section>
-    
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-84fa"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Пример текста. Кликните, чтобы выбрать текстовый блок. Кликните еще раз или сделайте двойной клик, чтобы начать редактирование текста.</p>
-      </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
-    </section>
     <script>
       document.querySelectorAll("#animation").forEach( el => {
         el.classList.add('invisible');

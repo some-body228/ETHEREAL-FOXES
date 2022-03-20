@@ -13025,7 +13025,7 @@ section.u-image:not(.u-hover-box),
   border-width: 0px;
 }
 .u-svg-link {
-  width: 100%;
+  width: 20%;
   height: 100%;
   fill: currentColor;
 }
@@ -13254,6 +13254,9 @@ div.u-video,
 }
 .u-nav-popup .u-nav-item {
   height: auto;
+}
+.u-nav-container{
+ padding-right: 20% !important;
 }
 .u-nav-container .u-nav-popup {
   position: absolute;
@@ -21318,8 +21321,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Lobster,display;
+  font-family: Montserrat, sans-serif;
 }
+
 /*end-variables font-family*/
 /*begin-variables color*/
 .u-overlap.u-overlap-transparent .u-header,
@@ -36702,6 +36706,7 @@ a.u-link.u-text-hover-grey-90:hover {
         }
         .u-body
         {
+        font-family: Montserrat, sans-serif !important;
         background-image: linear-gradient(to right, #f15048, #b23c8a);
         background-attachment: fixed;
         }
@@ -36917,7 +36922,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: -31px 118px 16px auto;
+  margin: -31px 200px 16px auto;
 }
 
 .u-header .u-nav-1 {
