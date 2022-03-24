@@ -35065,7 +35065,7 @@ li.active > a.u-button-style.u-text-white,
 li.active > a.u-button-style.u-text-white[class*="u-border-"],
 a.u-button-style.u-text-white,
 a.u-button-style.u-text-white[class*="u-border-"] {
-  color: #ffffff !important;
+  /* color: #ffffff !important; -----------------------------------*/
 }
 a.u-button-style.u-text-white:hover,
 a.u-button-style.u-text-white[class*="u-border-"]:hover,
@@ -35221,7 +35221,7 @@ li.active > a.u-button-style.u-text-body-alt-color,
 li.active > a.u-button-style.u-text-body-alt-color[class*="u-border-"],
 a.u-button-style.u-text-body-alt-color,
 a.u-button-style.u-text-body-alt-color[class*="u-border-"] {
-  color: #ffffff !important;
+  /* color: #ffffff !important; -------------------------------------------- */
 }
 a.u-button-style.u-text-body-alt-color:hover,
 a.u-button-style.u-text-body-alt-color[class*="u-border-"]:hover,
@@ -36707,7 +36707,8 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-body
         {
         font-family: Montserrat, sans-serif !important;
-        background-image: linear-gradient(to right, #f15048, #b23c8a);
+        background-color: #99ecff;
+        color: #053f96;
         background-attachment: fixed;
         }
         /** common-rules **/
@@ -37017,5 +37018,5 @@ a.u-link.u-text-hover-grey-90:hover {
 	color: #f7ab15
 }/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
- html { font-size: 16px; }
+ html { font-size: 20px; }
  /*end-variables base-font-size*/
