@@ -658,14 +658,14 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
 @media screen and (max-width: 1000px) {
   .roadmap{
   text-align: left;
-  padding: 100px 30px;
+  padding: 100px 100px;
 }
 .roadmap-point{
   margin-left: 23px;
 }
   .roadmap-point:nth-of-type(2n) div{
     position: relative;
-  width: 400px;
+  width: 60vw;
   text-align: left;
   left: 40px;
   top: -70px;
@@ -678,7 +678,7 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
 }
 .roadmap-point-mobile div{ 
   position: relative;
-  min-width: 400px;
+  width: 60vw;
   text-align: left;
   left: 40px;
   top: -70px;
@@ -732,6 +732,12 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
 .roadmap-point div:hover .popup{
   animation: none;
 
+}
+@media screen and (max-width: 600px){
+  .roadmap{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
 }
 }
 
