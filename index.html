@@ -242,7 +242,7 @@ welcome, join our mainland! </span>
     <section class="roadmap" id="roadmap">
       <h2 class="u-custom-font u-font-oswald u-text u-text-body-alt-color u-text-default u-text-5" id="animation">ROADMAP</h2>
       <img src="./images/fox.png" alt="" id="animation">
-    <div class="roadmap-point"  id="animation">
+    <div class="roadmap-point roadmap-point-mobile"  id="animation">
       <div >
       <h3 >0%</h3>
       <p>- <span style="text-decoration: underline; color: #f7c20d;">Mainland Ethereal Foxes</span> smart contract deploy.</p>
@@ -254,7 +254,7 @@ welcome, join our mainland! </span>
       </div>
     </div>
     <img src="./images/fox.png" alt="" id="animation">
-    <div class="roadmap-point" id="animation">
+    <div class="roadmap-point roadmap-point-mobile" id="animation">
       <div >
       <h3 >20%</h3>
       <p> - <span style="text-decoration: underline; color: #f7c20d;">This project</span> will be filled with exciting news, events, and releases that will build a strong foundation for this great collection. We don't want to be considered just another NFT collection. We want to create both an amazing community and a project that we can all enjoy. Additional exciting announcements, like partnerships with influencers and companies, will be announced as we confirm them.</p>
@@ -268,7 +268,7 @@ welcome, join our mainland! </span>
       </div>
     </div>
     <img src="./images/fox.png" alt="" id="animation">
-    <div class="roadmap-point" id="animation">
+    <div class="roadmap-point roadmap-point-mobile" id="animation">
       <div >
       <h3 >40%</h3>
       <p>- <span style="text-decoration: underline; color: #f7c20d;">This stage</span> will be one of the most important for this collection. We expect to start phase two of major investments, launches, announcements, partnerships, and the continued creation of value for every single NFT in our collection.</p>
@@ -282,7 +282,7 @@ welcome, join our mainland! </span>
       </div>
     </div>
     <img src="./images/fox.png" alt="" id="animation">
-    <div class="roadmap-point" id="animation">
+    <div class="roadmap-point roadmap-point-mobile" id="animation">
       <div >
       <h3 >60%</h3>
       <p>- <span style="text-decoration: underline; color: #f7c20d;">At this stage</span> we are preparing a special surprise for you. We’ll try to amaze you. Now we can only say one thing, it will be a theme of luxury and wealth!
@@ -296,7 +296,7 @@ welcome, join our mainland! </span>
       </div>
     </div>
     <img src="./images/fox.png" alt="" id="animation">
-    <div class="roadmap-point" id="animation">
+    <div class="roadmap-point roadmap-point-mobile" id="animation">
       <div >
       <h3 >80%</h3>
       <p>- <span style="text-decoration: underline; color: #f7c20d;">When all these stages are completed,</span> we want to get acquainted with the Metaverse (Decentraland, Blocktopia, The Sandbox). All Mainland Ethereal Foxes owners will have access to all future events that we are developing in these metaverses.
@@ -310,7 +310,7 @@ welcome, join our mainland! </span>
       </div>
     </div>
     <img src="./images/fox.png" alt="" id="animation">
-    <div class="roadmap-point" id="animation">
+    <div class="roadmap-point roadmap-point-mobile" id="animation">
       <div >
       <h3 >100%</h3>
       <p> <span style="text-decoration: underline; color: #f7c20d;">The last planned stage</span> will be all about further cementing this collection into the NFT community and its longer-term success. We will do our best to make Mainland Foxes one of the most popular and well-managed NFT collections in the community. That is our goal and what we'll be working to achieve.      </p>
@@ -324,7 +324,7 @@ welcome, join our mainland! </span>
       </div>
     </div>
     <img src="./images/fox.png" alt=""id="animation">
-    <div class="roadmap-point" id="animation">
+    <div class="roadmap-point roadmap-point-mobile" id="animation">
       <div >
       <h3 >110%-There is no limit to perfection, we work...</h3>
       </div>
@@ -539,7 +539,12 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
 .float_animation{
   animation: float 2s   cubic-bezier(1,0,.58,.97);
 };
-
+.b-marquee-line{
+  width: 100%;
+}
+.b-marquee-line-reverse{
+  width: 100%;
+}
 .b-marquee-line__flow {
   font-size: 0;
   line-height: 0;
@@ -598,7 +603,7 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
   width: 5px;
   background-color: #FB006E;
   margin: 0 auto;
-  height: 200px;
+  min-height: 200px;
 }
 .roadmap-point p {
   font-size: 1rem;
@@ -650,6 +655,85 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
   text-align: left;
 
 }
+@media screen and (max-width: 1000px) {
+  .roadmap{
+  text-align: left;
+  padding: 100px 30px;
+}
+.roadmap-point{
+  margin-left: 23px;
+}
+  .roadmap-point:nth-of-type(2n) div{
+    position: relative;
+  width: 400px;
+  text-align: left;
+  left: 40px;
+  top: -70px;
+  cursor: default;
+}
+.roadmap-point:nth-of-type(2n) ul{
+
+  text-align: left;
+
+}
+.roadmap-point-mobile div{ 
+  position: relative;
+  min-width: 400px;
+  text-align: left;
+  left: 40px;
+  top: -70px;
+  cursor: default;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 3px 3px 7px black;
+  max-height: 85px;
+  overflow: hidden;
+  padding-left: 30px;
+  transition: max-height .4s linear ;
+}
+
+
+.roadmap-point-mobile h3{
+  padding-bottom: 20px;
+}
+.roadmap-point-mobile h3:after{
+  content: "+";
+  position: absolute;
+  right: 20px;
+  top: 40px;
+  color: black;
+  transition: all .2s;
+  font-size: 80px;
+  line-height: 0;
+}
+.roadmap-point-mobile:hover h3:after{
+  transform: scale(1.2, 1.2);
+  
+}
+.roadmap-point-mobile:last-of-type h3::after{
+  display: none;
+}
+.roadmap-point-mobile:last-of-type div{
+  max-height: 200px;
+}
+.roadmap-point-mobile div:hover{
+  max-height: 1000px;
+}
+.popup{
+  position: relative;
+  top: 0;
+  left: 0; 
+    background: none;
+    box-shadow: none;
+    border-radius: none;
+    visibility: hidden;
+    color: #053f96;
+}
+.roadmap-point div:hover .popup{
+  animation: none;
+
+}
+}
 
 
 </style>
@@ -671,7 +755,7 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
             </div>
           </div>
         </section>
-        <section class="b-marquee-line-reverse" style="margin-top: 25vw;">
+        <section class="b-marquee-line-reverse">
           <div class="b-marquee-line__flow" id="animation">
             <div class="b-marquee-line__flow-in reverse">
               <span class="b-marquee-line__flow-block">
