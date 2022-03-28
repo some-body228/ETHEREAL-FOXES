@@ -363,7 +363,7 @@ span.fr-img-caption.fr-view {
 /*end-commonstyles library*/
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
 html {
-  font-family: sans-serif;
+  font-family: Impact, Anton, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -13028,6 +13028,7 @@ section.u-image:not(.u-hover-box),
   width: 20%;
   height: 100%;
   fill: currentColor;
+  margin: 0 auto;
 }
 .u-svg-content {
   width: 0;
@@ -15776,7 +15777,7 @@ p {
   font-family: Lato, sans-serif !important;
 }
 .u-font-montserrat.u-custom-font {
-  font-family: Montserrat, sans-serif !important;
+  font-family: Impact, Anton, sans-serif !important;
 }
 .u-font-roboto-condensed.u-custom-font {
   font-family: 'Roboto Condensed', sans-serif !important;
@@ -15785,7 +15786,7 @@ p {
   font-family: 'Source Sans Pro', sans-serif !important;
 }
 .u-font-oswald.u-custom-font {
-  font-family: Oswald, sans-serif !important;
+  font-family: Impact, Anton, sans-serif !important;
 }
 .u-font-raleway.u-custom-font {
   font-family: Raleway, sans-serif !important;
@@ -15809,7 +15810,7 @@ p {
   font-family: 'Playfair Display', serif !important;
 }
 .u-font-lobster.u-custom-font {
-  font-family: Lobster, display !important;
+  font-family: Impact, Anton, sans-serif !important;
 }
 .u-rectangle {
   border-radius: 0;
@@ -21313,7 +21314,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Open Sans',sans-serif;
+  font-family: Impact, Anton, sans-serif;
 }
 h1,
 h2,
@@ -21321,7 +21322,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Montserrat, sans-serif;
+  font-family: Impact, Anton, sans-serif !important;
 }
 
 /*end-variables font-family*/
@@ -21346,7 +21347,7 @@ h6 {
   font-family: 'Open Sans',sans-serif !important;
 }
 .u-custom-font.u-heading-font {
-  font-family: Lobster,display !important;
+  font-family: Impact, Anton, sans-serif !important;
 }
 /*end-variables font*/
 /*begin-variables colors*/
@@ -36628,7 +36629,6 @@ a.u-link.u-text-hover-grey-90:hover {
         font-weight: 400;
         list-icon-spacing: 0.3;
         list-icon-size: 0.8;
-        font-family: Lobster,display;
         }
         h4
         {
