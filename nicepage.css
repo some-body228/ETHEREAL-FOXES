@@ -4451,6 +4451,8 @@ blockquote.u-text.u-indent-22 {
 .u-spacing-21.u-countdown-item .u-countdown-counter,
 .u-text.u-spacing-21 li {
   margin-bottom: 21px;
+  padding-left: 20px;
+  font-size: 2rem;
 }
 .u-text.u-indent-21,
 .u-text.u-indent-21 ul,
