@@ -7,7 +7,7 @@
   margin: 4px;
 }
 .story-text{
-  font-size: 25px;
+  font-size: 2rem;
   text-align: center !important;
 }
 .u-section-1 .u-text-1 {
@@ -15,7 +15,7 @@
 }
 
 .u-section-1 .u-text-2 {
-  line-height: 1.8;
+  line-height: 1;
   width: 680px;
   margin: 56px auto 0;
 }
