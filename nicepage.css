@@ -1072,8 +1072,8 @@ ol {
 .u-post-content a,
 .u-tab-item a,
 .u-nav-item a {
-  font-size: inherit;
-  font-family: inherit;
+  font-size: 1.5rem;
+  font-family: Impact, Anton, sans-serif !important;
   line-height: inherit;
   letter-spacing: inherit;
   text-transform: inherit;
@@ -37020,5 +37020,8 @@ a.u-link.u-text-hover-grey-90:hover {
 	color: #f7ab15
 }/*end-variables custom-site-css*/
  /*begin-variables base-font-size*/ 
- html { font-size: 20px; }
+ html { 
+   font-size: 20px; 
+   /* scroll-behavior: */
+  }
  /*end-variables base-font-size*/

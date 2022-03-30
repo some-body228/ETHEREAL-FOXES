@@ -58,11 +58,11 @@
           </div>
           <div class="u-custom-menu u-nav-container">
             <ul class="u-nav u-spacing-2 u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-d2dd" style="padding: 10px 20px;">HOME</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-6918" style="padding: 10px 20px;">THE STORY</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#gellary" style="padding: 10px 20px;">GALLERY</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#roadmap" style="padding: 10px 20px;">ROADMAP</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-6091" style="padding: 10px 20px;">ARTIST</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-eb03" style="padding: 10px 20px;">TEAM</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-6918" style="padding: 10px 20px;">THE STORY</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#gellary" style="padding: 10px 20px;">GALLERY</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#roadmap" style="padding: 10px 20px;">ROADMAP</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-6091" style="padding: 10px 20px;">ARTIST</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link u-text-active-grey-90 u-text-body-alt-color u-text-hover-custom-color-1" href="#sec-eb03" style="padding: 10px 20px;">TEAM</a>
 </li></ul>
           </div>
           <div class="u-custom-menu u-nav-container-collapse">
@@ -70,11 +70,11 @@
               <div class="u-inner-container-layout u-sidenav-overflow">
                 <div class="u-menu-close"></div>
                 <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-d2dd" style="padding: 10px 20px;">HOME</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-6918" style="padding: 10px 20px;">THE STORY</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#gellary" style="padding: 10px 20px;">GALLERY</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#roadmap" style="padding: 10px 20px;">ROADMAP</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-6091" style="padding: 10px 20px;">ARTIST</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="#sec-eb03" style="padding: 10px 20px;">TEAM</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link" href="#sec-6918" style="padding: 10px 20px;">THE STORY</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link" href="#gellary" style="padding: 10px 20px;">GALLERY</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link" href="#roadmap" style="padding: 10px 20px;">ROADMAP</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link" href="#sec-6091" style="padding: 10px 20px;">ARTIST</a>
+</li><li class="u-nav-item"><a class=" a-link u-button-style u-nav-link" href="#sec-eb03" style="padding: 10px 20px;">TEAM</a>
 </li></ul>
               </div>
             </div>
@@ -540,6 +540,7 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
   opacity: 0;
 }
 .float_animation{
+  z-index: 1;
   animation: float 3s   cubic-bezier(0.18, 0.89, 0.32, 1.28);
 };
 .b-marquee-line{
@@ -803,6 +804,14 @@ for beautiful foxes and inventing interesting and unusual characters."      - Ki
       document.querySelectorAll('#animation').forEach(el => {
         observer.observe(el)
       })
+      jQuery(document).ready(function() {
+        jQuery("a.a-link").click(function () {
+          elementClick = jQuery(this).attr("href")
+          destination = jQuery(elementClick).offset().top;
+          jQuery("html:not(:animated),body:not(:animated)").animate({scrollTop: destination}, 2000);
+          return false;
+        });
+      });
     </script>
   </body>
 </html>
