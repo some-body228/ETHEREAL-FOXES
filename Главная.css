@@ -2,12 +2,12 @@
   min-height: 100vh;
 }
 .nav-link img{
-  width: 30px !important;
-  height: 30px !important;
+  width: 40px !important;
+  height: 40px !important;
   margin: 4px;
 }
 .story-text{
-  font-size: 2rem;
+  font-size: 1.6rem;
   text-align: center !important;
 }
 .u-section-1 .u-text-1 {
@@ -16,7 +16,7 @@
 
 .u-section-1 .u-text-2 {
   line-height: 1;
-  width: 680px;
+  width: 900px;
   margin: 56px auto 0;
 }
 
@@ -111,13 +111,13 @@
 }
 
 .u-section-2 .u-gallery-1 {
-  height: 1260px;
+  height: 1000px;
   margin-top: 17px;
   margin-bottom: 0;
 }
 
 .u-section-2 .u-gallery-inner-1 {
-  grid-gap: 85px 85px;
+  grid-gap: 50px 50px;
   grid-template-columns: auto auto;
 }
 
