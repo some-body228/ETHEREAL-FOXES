@@ -16,7 +16,7 @@
 
 .u-section-1 .u-text-2 {
   line-height: 1;
-  width: 900px;
+  max-width: 900px;
   margin: 56px auto 0;
 }
 
@@ -60,7 +60,7 @@
 
 .u-section-2 .u-slider-1 {
   min-height: 375px;
-  width: 1070px;
+  /* width: 1070px; */
   margin: 30px auto 0;
 }
 

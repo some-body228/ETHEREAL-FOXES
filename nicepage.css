@@ -5746,6 +5746,9 @@ section.u-image:not(.u-hover-box),
   .u-xl-mode .u-sheet {
     width: 70% !important;
   }
+  .u-xl-mode header .u-sheet {
+    width:var(--theme-sheet-width-xl) !important;
+  }
 }
 @media (min-width: 1200px) and (max-width: 1399px) {
   .u-xxl-mode .u-sheet {
@@ -36914,7 +36917,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-logo-image-1 {
-  width: 100%;
+  width: 130px;
   height: 100%;
 }
 
@@ -36974,6 +36977,7 @@ a.u-link.u-text-hover-grey-90:hover {
   .u-header .u-social-icons-1 {
     margin-top: 20px;
     margin-right: auto;
+    width: 160px;
   }
 
   .u-header .u-menu-1 {
