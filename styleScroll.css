@@ -1,35 +1,39 @@
+.anim-image{
+}
 .photo {
   position: relative;
   left: 0%;
   width: 100%;
   height: 100%;
-  background: url("images/KillerGF.png");
   background-repeat: no-repeat;
   background-size: 90%;
   background-position: 50% 0%;
   display: flex;
   justify-content: center;
-  margin-left: 7%;
+  margin: 0;
 }
 
 .anim__photo {
+  background: url("images/Узор\ фона\ Светлее\ Размытие\ 10.png");
+  background-position: center;
+  background-size: cover;
   position: relative;
-  min-height: 100vh;
+  float: right;
+  width: 100vw;
 }
-@media (max-width: 1200px) {
-  .anim__photo {
-    max-width: 970px;
-    min-width: 200px;
-  }
-}
+.anim-mask{
+  position: absolute;
 
-@media (max-width: 992px) {
-  .anim__photo {
-    max-width: 750px;
-  }
+  height: 20%;
+  width: 100%;
 }
-@media (max-width: 767px) {
-  .anim__photo {
-    max-width: none;
-  }
+.top-mask{
+  top: -3px;
+  left: 0;
+  background: linear-gradient(rgba(153, 236, 255, 1), rgba(153, 236, 255, 0))
+}
+.bottom-mask{
+  bottom: -3px;
+  left: 0;
+  background: linear-gradient(rgba(153, 236, 255, 0), rgba(153, 236, 255, 1))
 }

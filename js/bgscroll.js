@@ -1,4 +1,3 @@
-
 (function ($) {
   $.fn.bgscroll = function (options) {
     var x = $.extend(
@@ -39,9 +38,8 @@
     });
   };
 })(jQuery);
-
-$(window).scroll(function () {
-  $(".photo").bgscroll({
+$(document).scroll(function () {
+  $(".anim__photo").bgscroll({
     direction: "top", // направление bottom или top
     bgpositionx: 50, // x позиция фонового изображения, от 0 до 100, размерность в %, 50 - означает по центру
     debug: false, // Режим отладки
