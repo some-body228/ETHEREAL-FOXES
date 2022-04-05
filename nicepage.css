@@ -36727,7 +36727,9 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-body
         {
         font-family: Montserrat, sans-serif !important;
-        background-color: #99ecff;
+        background-image: url(./images/BigSize1\ \(1\).png);
+        background-size: cover;
+        background-position: center;
         color: #053f96;
         background-attachment: fixed;
         }
