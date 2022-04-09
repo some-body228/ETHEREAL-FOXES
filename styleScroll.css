@@ -1,4 +1,6 @@
 .anim-image{
+  height: 77vw;
+  background-color: #1c2f73;
 }
 .photo {
   position: relative;
@@ -30,10 +32,10 @@
 .top-mask{
   top: -3px;
   left: 0;
-  background: linear-gradient(rgba(153, 236, 255, 1), rgba(153, 236, 255, 0))
+  background: linear-gradient(black, rgba(153, 236, 255, 0))
 }
 .bottom-mask{
   bottom: -3px;
   left: 0;
-  background: linear-gradient(rgba(153, 236, 255, 0), rgba(153, 236, 255, 1))
+  background: linear-gradient(rgba(153, 236, 255, 0), black)
 }

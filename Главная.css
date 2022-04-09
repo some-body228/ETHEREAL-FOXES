@@ -1,6 +1,9 @@
 .u-section-1 .u-sheet-1 {
   min-height: 100vh;
 }
+.font-little{
+  font-size: 18px;
+}
 .nav-link img{
   width: 40px !important;
   height: 40px !important;
@@ -297,7 +300,7 @@
 
 .u-section-3 .u-image-1 {
   min-height: 409px;
-  background-image: url("images/3.png");
+  background-image: url("images/artist.jpg");
   background-position: 50% 50%;
 }
 
@@ -445,6 +448,7 @@
 .u-section-4 .u-container-layout-2 {
   padding: 30px;
 }
+
 
 .u-section-4 .u-image-2 {
   width: 240px;

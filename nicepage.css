@@ -3,7 +3,12 @@
  * License https://froala.com/wysiwyg-editor/terms/
  * Copyright 2014-2021 Froala Labs
  */
-
+.gif-image{
+  background-image: url(./images/background1.gif);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
 .fr-clearfix::after {
   clear: both;
   display: block;
@@ -33838,7 +33843,7 @@ li.active > a.u-button-style.u-text-palette-3-base,
 li.active > a.u-button-style.u-text-palette-3-base[class*="u-border-"],
 a.u-button-style.u-text-palette-3-base,
 a.u-button-style.u-text-palette-3-base[class*="u-border-"] {
-  color: #c7000d !important;
+  color: #ef6505 !important;
 }
 a.u-button-style.u-text-palette-3-base:hover,
 a.u-button-style.u-text-palette-3-base[class*="u-border-"]:hover,
@@ -36349,7 +36354,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-popupmenu-items.u-text-hover-custom-color-1 .u-nav-link:hover,
         .u-popupmenu-items.u-popupmenu-items.u-text-active-custom-color-1 .u-nav-link.active
         {
-            color: #f7ab15 !important;
+            color: #ef6505 !important;
         }
 
         .u-text-custom-color-1 .u-svg-link,
@@ -36727,10 +36732,10 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-body
         {
         font-family: Montserrat, sans-serif !important;
-        background-image: url(./images/BigSize1\ \(1\).png);
+        background-image: url(./images/background2.jpg);
         background-size: cover;
         background-position: center;
-        color: #053f96;
+        color: white;
         background-attachment: fixed;
         }
         /** common-rules **/
@@ -36813,7 +36818,7 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-image:not(.u-shading) > .u-container-layout > h3,
         h3
         {
-        color: #c7000d;
+        color: #ef6505;
         }
         .u-overlap.u-overlap-transparent:not(.u-overlap-contrast) .u-header :not(.u-nav-item) > a,
         .u-gradient > .u-container-layout > a,
